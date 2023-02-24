@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1c4548a8;
+
+
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+    padding: 60px 80px;
+    font-family: Gilroy;
+}
+ #nav #lnav{
+    width: 40%;
+    height: inherit;
+    /* background-color: lawngreen; */
+    display: flex;
+    align-items: center;
+}
+#lnav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+#lnav img{
+    height: 100px;
+    margin-right:80px;
+
+}
+#rnav{
+    width: 30%;
+    height: inherit;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+
+}
+#rnav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 60px;
+}
+#upper{
+    min-height:65vh;
+    /* background-color: yellow; */
+    display: flex;
+    position: relative;
+}
+#bottom{
+    min-height: 25vh;
+    /* background-color: yellowgreen; */
+    display: flex;
+}
+#left
+{
+    width: 40%;
+    min-height: inherit;
+    /* background-color: violet; */
+    /* padding: 20px 100px; */
+}
+#left h1{
+    font-family:Gilroy;
+    color: white;
+    font-size: 200px;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%,-50%);
+    font-weight: 900;
+}
+#right img{
+    height: 150%;
+    position: absolute;
+    bottom: -188px;
+    right: 120px;
+    z-index: 0;
+}
+#para{
+    height: 30%;
+    width: 60%;
+    color: white;
+    /* border: 2px solid yellowgreen; */
+    font-family: Gilroy;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+
+#para i{
+    color: white;
+    font-size: 30px;
+}
+#play{
+    width: 100px;
+    height:25px;
+    display: flex;
+    /* background-color: yellow ; */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+#para h5{
+    font-family: Gilroy;
+
+}
+#rightbottom{
+    position: absolute;
+    width: 45%;
+    height:40%;
+    background-color:#4327409d;
+    /* background-color: #669c84a6; */
+    right: 0;
+    bottom: 0;
+}
+#lmost{
+    position: absolute;
+    bottom:0;
+    width: 45px;
+    height: 45px;
+    background-color:black;
+    padding: 10px;
+}
+#bottom #overlay{
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    min-height:inherit;
+    background-color: #1c454875;
+    backdrop-filter: blur(12px);
+    display: flex;
+
+    /* background-color:#6d5e658e; */
+}
+#icons{
+    width: 7%;
+    height: 100%;
+    /* background-color: lavender; */
+    position: absolute;
+    left: 12px;
+}
+#leftbtm{
+    /* position: relative; */
+    height:100%;
+    width: 15%;
+    background-color: lightcoral;
+    background-image: url(https://images.unsplash.com/photo-1483347756197-71ef80e95f73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+    /* z-index: 99999; */
+    margin-left: 120px;
+}
+#rightbtm{
+    width: 72.5%;
+    height: 100%;
+    /* background-color: rgb(196, 32, 32); */
+    padding: 30px 60px;
+}
+#icons a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 15px;
+}
+#icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+#leftright{
+    height:100%;
+    width: 5%;
+    background-color:#07030496;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#lmost a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+}
+    
+#rightbtm h3{
+    color: white;
+    margin-top: 30px;
+    font-family: Gilroy;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+#rightbtm h5{
+    margin-top: 30px;
+    color: white;
+    font-family: Gilroy;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+#leftright a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    position:absolute;
+     right: 12px;
+     bottom: 40%;
+}
+#rightbtm a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    position:absolute;
+    right: 8%;
+    bottom: 40%;
+}
